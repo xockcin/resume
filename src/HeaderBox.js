@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderBox = () => {
   return (
-    <div>
+    <div className="headerbox">
       <h1>+ N. Tumarkin Cox +</h1>
     </div>
   );

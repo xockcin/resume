@@ -15,11 +15,6 @@ body {
   );
 }
 
-h1 {
-  text-align: center;
-  margin: 2rem 0 4rem 0;
-}
-
 /* ACCORDION */
 
 .accordion {
@@ -56,4 +51,12 @@ h1 {
   .accordion {
     width: 90%;
   }
+}
+
+/* HEADERBOX */
+
+.headerbox {
+  border: solid black 3px;
+  padding: 2px;
+  margin: 10px;
 }
