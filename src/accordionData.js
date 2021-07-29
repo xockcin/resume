@@ -1,7 +1,19 @@
 export const accordionData = [
   {
     title: "skills",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tempore! Possimus, voluptatem. Mollitia officiis culpa repudiandae, placeat laborum eligendi unde? Veniam, obcaecati ea! Rerum deserunt ex ullam modi facere eius."
+    content: (
+      <div style={{ padding: "0" }}>
+        <p style={{ margin: "3px" }}>
+          <strong>Javascript</strong> - React, React Native, NodeJS
+        </p>
+        <p style={{ margin: "3px" }}>
+          <strong>Python</strong> - Flask, NLTK, MicroPython
+        </p>
+        <p style={{ margin: "3px" }}>
+          <strong>Other</strong> - C, Arduino, Linux
+        </p>
+      </div>
+    ),
   },
   {
     title: "education",
